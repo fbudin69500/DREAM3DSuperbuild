@@ -12,5 +12,5 @@ fi
 
 
 echo "Executing Qt5 Installer .... "
-"${DREAM3D_SDK}/superbuild/${extProjectName}/Download/${qt5_online_installer}" --script "@JSFILE@"
+"${DREAM3D_SDK}/superbuild/${extProjectName}/Download/${qt5_online_installer}" --platform minimal --script "@JSFILE@"
 
