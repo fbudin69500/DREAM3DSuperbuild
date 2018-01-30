@@ -122,7 +122,7 @@ else()
   message(WARNING "The DREAM3D_SDK.cmake file will be incomplete as intended. The paths to your Qt installation will be missing and DREAM.3D will probably not build.")
 endif()
 
-include(Qwt)
+#include(Qwt)
 
 OPTION(BUILD_DREAM3D "Build DREAM.3D" OFF)
 if("${BUILD_DREAM3D}" STREQUAL "ON")
